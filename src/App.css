@@ -13,6 +13,33 @@ h6 {
   font-weight: 700;
   font-style: italic;
 }
+
+/* Navbar */
+.nav {
+  margin-right: 50px;
+}
+#navbrand {
+  font-size: 1.5rem;
+}
+.Navbar {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 500;
+  position: fixed;
+  width: 100%;
+}
+/* Home section */
+#opener {
+  width: 100%;
+}
+
+/* Order section */
+#order {
+  margin-top: 20px;
+}
+#order-body {
+  margin-top: 20px;
+}
+
 .App {
   text-align: center;
 }
