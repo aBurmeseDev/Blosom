@@ -15,6 +15,9 @@ h6 {
 }
 
 /* Navbar */
+.nav {
+  margin-right: 50px;
+}
 #navbrand {
   font-size: 1.5rem;
 }

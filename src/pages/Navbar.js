@@ -31,19 +31,27 @@ class NavBar extends Component {
             Blosom Bento
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle.bind(this)} />
-          <Collapse>
+          <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className='ml-auto' navbar>
               <NavItem>
-                <NavLink href='#'>Home</NavLink>
+                <NavLink className='nav' href='#'>
+                  Home
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='#'>Menu</NavLink>
+                <NavLink className='nav' href='#'>
+                  Menu
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='#'>Order</NavLink>
+                <NavLink className='nav' href='#'>
+                  Order
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href='#'>About</NavLink>
+                <NavLink className='nav' href='#'>
+                  About
+                </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
