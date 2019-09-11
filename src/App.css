@@ -27,6 +27,18 @@ h6 {
   position: fixed;
   width: 100%;
 }
+/* Home section */
+#opener {
+  width: 100%;
+}
+
+/* Order section */
+#order {
+  margin-top: 20px;
+}
+#order-body {
+  margin-top: 20px;
+}
 
 .App {
   text-align: center;
