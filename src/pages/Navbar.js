@@ -25,9 +25,11 @@ class NavBar extends Component {
 
   render() {
     return (
-      <>
+      <div className='Navbar'>
         <Navbar light expand='md'>
-          <NavbarBrand href='/'>Blosom Bento</NavbarBrand>
+          <NavbarBrand id='navbrand' href='/'>
+            Blosom Bento
+          </NavbarBrand>
           <NavbarToggler onClick={this.toggle.bind(this)} />
           <Collapse>
             <Nav className='ml-auto' navbar>
@@ -46,7 +48,7 @@ class NavBar extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-      </>
+      </div>
     );
   }
 }
