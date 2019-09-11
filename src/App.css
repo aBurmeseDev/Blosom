@@ -21,6 +21,8 @@ h6 {
 .Navbar {
   font-family: 'Chivo', sans-serif;
   font-weight: 500;
+  position: fixed;
+  width: 100%;
 }
 
 .App {
