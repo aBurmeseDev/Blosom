@@ -26,7 +26,7 @@ class NavBar extends Component {
   render() {
     return (
       <>
-        <Navbar>
+        <Navbar light expand='md'>
           <NavbarBrand href='/'>Blosom Bento</NavbarBrand>
           <NavbarToggler onClick={this.toggle.bind(this)} />
           <Collapse>
@@ -50,4 +50,4 @@ class NavBar extends Component {
     );
   }
 }
-export default Navbar;
+export default NavBar;
