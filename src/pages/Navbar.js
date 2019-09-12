@@ -26,7 +26,7 @@ class NavBar extends Component {
   render() {
     return (
       <div className='Navbar'>
-        <Navbar expand='md'>
+        <Navbar light expand='md'>
           <NavbarBrand id='navbrand' href='/'>
             Blosom Bento
           </NavbarBrand>
