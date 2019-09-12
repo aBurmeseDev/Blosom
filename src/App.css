@@ -32,6 +32,7 @@ h6 {
 #opener {
   width: 100%;
   max-height: 40rem;
+  object-fit: cover;
 }
 
 /* Order section */
