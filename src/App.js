@@ -6,6 +6,7 @@ import { Router, Switch } from 'react-router-dom';
 import NavBar from './pages/Navbar';
 import Home from './pages/Home';
 import Order from './pages/Order';
+import About from './pages/About';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <NavBar />
         <Home />
         <Order />
+        <About />
       </div>
     );
   }
