@@ -6,7 +6,6 @@ export default class Order extends Component {
   render() {
     return (
       <div className='OrderInfo'>
-        <h5 id='order'>Delivery Areas</h5>
         <div id='order-body'>
           <Row>
             <Col xs='12' md='4'>
