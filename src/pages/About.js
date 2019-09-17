@@ -9,15 +9,18 @@ export default class About extends Component {
           <Row>
             <Col xs='12' md='4'>
               <h4>location</h4>
-              <span>Santa Monica Blvd</span>
+              <span>
+                735 E. 12th st. suite #411 <br /> Los Angeles, CS 90021
+              </span>
             </Col>
             <Col xs='12' md='4'>
               <h4>hours</h4>
-              <span>M-F 11am-5pm</span>
+              <span>M-F 9:00am - 5:00pm</span> <br />
+              Sat 7:30am - 12:30pm
             </Col>
             <Col xs='12' md='4'>
               <h4>contact</h4>
-              <span>626-628-5356</span>
+              <span>213.746.4642</span>
             </Col>
           </Row>
         </div>
@@ -26,6 +29,10 @@ export default class About extends Component {
           <Row>
             <Col xs='12' md='3'>
               <h6>Within 0.5 mile</h6>
+              <p>Free</p>
+              <p>Free</p>
+
+              <p>Free</p>
             </Col>
             <Col xs='12' md='3'>
               <h6>Within 1 mile</h6>
