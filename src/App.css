@@ -43,8 +43,17 @@ h6 {
   margin-top: 20px;
 }
 /* About section */
+.About {
+  margin-top: 30px;
+  padding: 12px 0;
+  background: rgba(255, 10, 10, 0.308);
+}
 #about-body {
   margin-top: 20px;
+}
+
+#deliver-body {
+  margin-bottom: 3.5rem;
 }
 
 /* Footer */
@@ -61,7 +70,7 @@ h6 {
   bottom: 0;
   left: 0;
   width: 100%;
-  /* border-top: solid 1px rgba(255, 10, 10, 0.308); */
+  border-top: solid 1px rgba(255, 10, 10, 0.308);
 }
 
 .App {
