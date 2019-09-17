@@ -36,15 +36,18 @@ h6 {
 }
 
 /* Order section */
-#order {
-  margin-top: 20px;
+.OrderInfo {
+  /* margin-top: 30px; */
+  padding: 48px 0;
+  background: #000;
 }
 #order-body {
-  margin-top: 20px;
+  margin-top: 20px 0;
 }
+
 /* About section */
 .About {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 12px 0;
   background: rgba(255, 10, 10, 0.308);
 }
