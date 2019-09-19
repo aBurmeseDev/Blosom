@@ -28,11 +28,7 @@ export default class About extends Component {
           <h5 id='order'>Delivering Areas</h5>
           <Row>
             <Col xs='12' md='3'>
-              <h6>Within 0.5 mile</h6>
-              <p>Free</p>
-              <p>Free</p>
-
-              <p>Free</p>
+              <h6>Within 0.5 mile</h6> <strong>FREE</strong>
             </Col>
             <Col xs='12' md='3'>
               <h6>Within 1 mile</h6>
