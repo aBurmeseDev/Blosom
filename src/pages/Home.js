@@ -5,11 +5,6 @@ import salmon from '../menu_items/Blosom Signature Roll.jpg';
 
 export default class Home extends Component {
   render() {
-    return (
-      <div className='Home'>
-        {/* <Carousel /> */}
-        <img id='opener' src={salmon} />
-      </div>
-    );
+    return <div className='para' />;
   }
 }
