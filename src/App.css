@@ -39,7 +39,8 @@ h6 {
 .OrderInfo {
   /* margin-top: 30px; */
   padding: 48px 0;
-  background: #000;
+  height: auto;
+  background: rgba(255, 10, 10, 0.308);
 }
 #order-body {
   margin-top: 20px 0;
