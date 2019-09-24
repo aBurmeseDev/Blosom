@@ -44,6 +44,14 @@ h6 {
 #order-body {
   margin-top: 20px 0;
 }
+/* Menu section */
+.Menu {
+  background: #000;
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 
 /* About section */
 .About {
@@ -81,4 +89,12 @@ h6 {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+}
+
+.para3 {
+  background: #000;
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
