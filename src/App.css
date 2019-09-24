@@ -90,9 +90,24 @@ h6 {
   padding: 0;
   overflow-x: hidden;
 }
+.para {
+  background-image: url('./handroll.jpg');
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  animation: 5s slideInFromLeft;
+}
 
+.para2 {
+  background-image: url('./handroll.jpg');
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 .para3 {
-  background: #000;
+  background: url('./Vocano Roll.jpg');
   height: 700px;
   background-attachment: fixed;
   background-position: center;
