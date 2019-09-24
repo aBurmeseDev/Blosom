@@ -26,7 +26,7 @@ export default class Order extends Component {
           </Row>
         </div>
         <div id='deliver-body'>
-          <h5 id='order'>Delivering Areas</h5>
+          <h4 id='order'>Delivering Areas</h4>
           <Row>
             <Col xs='12' md='2' />
             <Col xs='12' md='2'>

@@ -24,7 +24,7 @@ export default class About extends Component {
             </Col>
           </Row>
         </div>
-        <div id='deliver-body'>
+        {/* <div id='deliver-body'>
           <h5 id='order'>Delivering Areas</h5>
           <Row>
             <Col xs='12' md='3'>
@@ -40,7 +40,7 @@ export default class About extends Component {
               <h6>Over mile</h6>
             </Col>
           </Row>
-        </div>
+        </div> */}
       </div>
     );
   }
