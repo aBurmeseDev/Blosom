@@ -7,6 +7,7 @@ export default class Order extends Component {
     return (
       <div className='OrderInfo'>
         <div id='order-body'>
+          <h4 id='order'>order online</h4>
           <Row>
             <Col xs='12' md='4'>
               <Button outline color='info'>
@@ -26,7 +27,7 @@ export default class Order extends Component {
           </Row>
         </div>
         <div id='deliver-body'>
-          <h4 id='order'>Delivering Areas</h4>
+          <h4>delivering areas</h4>
           <Row>
             <Col xs='12' md='2' />
             <Col xs='12' md='2'>
