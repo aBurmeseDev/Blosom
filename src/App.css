@@ -37,23 +37,25 @@ h6 {
 
 /* Order section */
 .OrderInfo {
-  /* margin-top: 30px; */
-  padding: 48px 0;
-  height: auto;
+  height: 300px;
   background: rgba(255, 10, 10, 0.308);
 }
 #order-body {
-  margin-top: 20px 0;
+  padding: 24px 0;
 }
 /* Menu section */
 .Menu {
-  background: #fab905;
-  height: 700px;
+  /* background: #fab905; */
+  background: #000;
+  color: #fff;
+  height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
-
+#menu-body {
+  padding: 12px 0;
+}
 /* About section */
 .About {
   /* margin-top: 30px; */
@@ -104,7 +106,7 @@ h6 {
 }
 
 .para2 {
-  background-image: url('./handroll.jpg');
+  background-image: url('./Masago Sushi.jpg');
   height: 700px;
   background-attachment: fixed;
   background-position: center;
