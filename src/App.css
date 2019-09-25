@@ -13,7 +13,9 @@ h6 {
   /* font-weight: 700; */
   font-style: italic;
 }
-
+h4 {
+  text-decoration: underline;
+}
 /* Navbar */
 .nav {
   margin-right: 50px;
@@ -37,10 +39,14 @@ h6 {
 
 /* Order section */
 .OrderInfo {
-  height: 300px;
+  height: auto;
   background: rgba(255, 10, 10, 0.308);
 }
 #order-body {
+  padding: 24px 0;
+}
+
+#deliver-body {
   padding: 24px 0;
 }
 /* Menu section */
@@ -48,7 +54,7 @@ h6 {
   /* background: #fab905; */
   background: #000;
   color: #fff;
-  height: 500px;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -66,11 +72,6 @@ h6 {
 #about-body {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-#deliver-body {
-  margin-top: 3.5rem;
-  margin-bottom: 1.5rem;
 }
 
 /* Footer */
