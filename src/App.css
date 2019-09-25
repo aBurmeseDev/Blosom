@@ -1,6 +1,7 @@
 body {
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
+  height: 100vh;
 }
 
 h1,
@@ -13,6 +14,7 @@ h6 {
   /* font-weight: 700; */
   font-style: italic;
 }
+
 h4,
 h5 {
   text-decoration: underline;
@@ -20,6 +22,9 @@ h5 {
 /* Navbar */
 .nav {
   margin-right: 50px;
+}
+.nav:hover {
+  text-decoration: underline !important;
 }
 #navbrand {
   font-size: 1.5rem;
@@ -56,12 +61,12 @@ h5 {
   background: #000;
   color: #fff;
   height: auto;
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
 }
 #menu-body {
-  padding: 12px 0;
+  padding: 24px 0;
 }
 /* About section */
 .About {
@@ -77,19 +82,20 @@ h5 {
 
 /* Footer */
 .Footer {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  height: 50px;
+  flex-wrap: wrap; */
+  height: auto;
   background-color: black;
   color: #fff;
   /* opacity: 0.6; */
   /* position: fixed; */
-  bottom: 0;
-  left: 0;
+  /* bottom: 0;
+  left: 0; */
   width: 100%;
   border-top: solid 1px rgba(255, 10, 10, 0.308);
+  padding: 12px 0;
 }
 
 .App {
