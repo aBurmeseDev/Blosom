@@ -101,7 +101,7 @@ h5 {
 /* Parallax scroll */
 .para {
   background-image: url('./handroll.jpg');
-  height: 700px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -110,14 +110,14 @@ h5 {
 
 .para2 {
   background-image: url('./Masago Sushi.jpg');
-  height: 700px;
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
 .para3 {
   background: url('./Vocano Roll.jpg');
-  height: 700px;
+  height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -127,12 +127,9 @@ h5 {
 .btn-outline-info {
   color: #000 !important;
   border-color: #000 !important;
-  opacity: 1;
   transition: all 0.5s ease-in-out;
 }
 .btn-outline-info:hover {
   color: #fff !important;
   background-color: #000 !important;
-  border-color: rgba(255, 10, 10, 0.308) !important;
-  opacity: 5;
 }
