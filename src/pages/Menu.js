@@ -6,8 +6,9 @@ export default class Menu extends Component {
   render() {
     return (
       <div className='Menu'>
-        <h3>menu</h3>
         <div id='menu-body'>
+          <h3>menu</h3>
+          <div style={{ height: '24px' }} />
           <Row>
             <Col xs='12' md='3'>
               <h4>noodle</h4>

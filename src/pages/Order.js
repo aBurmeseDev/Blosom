@@ -7,7 +7,9 @@ export default class Order extends Component {
     return (
       <div className='OrderInfo'>
         <div id='order-body'>
-          <h4 id='order'>order online</h4>
+          <h3>order online</h3>
+          <div style={{ height: '24px' }} />
+
           <Row>
             <Col xs='12' md='4'>
               <Button outline color='info'>

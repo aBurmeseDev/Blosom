@@ -136,7 +136,7 @@ class App extends Component {
                     <Element name='order'>
                       <Order />
                     </Element>
-                    <div className='para2' />
+                    {/* <div className='para2' /> */}
                     <Element name='gallery'>
                       <Menu />
                     </Element>
