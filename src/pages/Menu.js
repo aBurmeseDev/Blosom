@@ -9,49 +9,103 @@ export default class Menu extends Component {
         <div id='menu-body'>
           <Row>
             <Col xs='12' md='3'>
-              <h4>location</h4>
-              <span>
-                735 E. 12th st. suite #411 <br /> Los Angeles, CA 90021
-              </span>
+              <h4>noodle</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>location</h4>
-              <span>
-                735 E. 12th st. suite #411 <br /> Los Angeles, CA 90021
-              </span>
+              <h4>sushi & sashimi</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>hours</h4>
-              <span>M-F 9:00am - 5:00pm</span> <br />
-              Sat 7:30am - 12:30pm
+              <h4>bento lunch</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>contact</h4>
-              <span>T: 213 746 4642</span>
+              <h4>specialty roll</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
           </Row>
           <div style={{ height: '90px' }} />
           <Row>
             <Col xs='12' md='3'>
-              <h4>location</h4>
-              <span>
-                735 E. 12th st. suite #411 <br /> Los Angeles, CA 90021
-              </span>
+              <h4>salad</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>location</h4>
-              <span>
-                735 E. 12th st. suite #411 <br /> Los Angeles, CA 90021
-              </span>
+              <h4>side</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>hours</h4>
-              <span>M-F 9:00am - 5:00pm</span> <br />
-              Sat 7:30am - 12:30pm
+              <h4>drink</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
             <Col xs='12' md='3'>
-              <h4>contact</h4>
-              <span>T: 213 746 4642</span>
+              <h4>dessert</h4>
+              <span>Zaru Soba</span> <br />
+              <span>Udon Soup</span> <br />
+              <span>Miso Ramen</span>
+              <br />
+              <span>Chashu Ramen</span>
+              <br />
+              <span>Shrimp Miso Soup</span>
+              <br />
+              <span>Seafood Udon Soup</span>
             </Col>
           </Row>
         </div>
