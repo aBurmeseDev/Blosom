@@ -10,7 +10,7 @@ export default class About extends Component {
             <Col xs='12' md='4'>
               <h4>location</h4>
               <span>
-                735 E. 12th st. suite #411 <br /> Los Angeles, CS 90021
+                735 E. 12th st. suite #411 <br /> Los Angeles, CA 90021
               </span>
             </Col>
             <Col xs='12' md='4'>
@@ -20,7 +20,7 @@ export default class About extends Component {
             </Col>
             <Col xs='12' md='4'>
               <h4>contact</h4>
-              <span>213.746.4642</span>
+              <span>T: 213 746 4642</span>
             </Col>
           </Row>
         </div>

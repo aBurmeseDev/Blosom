@@ -151,7 +151,6 @@ class App extends Component {
           </Switch>
         </BrowserRouter>
         <footer>
-          {' '}
           <Footer />
         </footer>
       </div>

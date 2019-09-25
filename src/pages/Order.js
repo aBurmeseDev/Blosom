@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 
 export default class Order extends Component {
   render() {

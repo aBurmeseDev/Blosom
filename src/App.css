@@ -59,9 +59,11 @@ h6 {
   /* margin-top: 30px; */
   padding: 12px 0;
   background: rgba(255, 10, 10, 0.308);
+  /* width: 600px; */
 }
 #about-body {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #deliver-body {
@@ -79,7 +81,7 @@ h6 {
   background-color: black;
   color: #fff;
   /* opacity: 0.6; */
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
