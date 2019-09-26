@@ -22,10 +22,16 @@ export default class Foot extends Component {
             <Col xs='12' md='4'>
               <h4>contact</h4>
               <span>T: 213 746 4642</span> <br />
-              <a href='#'>
+              <a
+                href='https://www.facebook.com/Blosom-Bento-194429073910986/'
+                target='_blank'
+              >
                 <i className='fab fa-facebook fa-2x' />
               </a>
-              <a href='#'>
+              <a
+                href='https://www.yelp.com/biz/blosom-bento-los-angeles'
+                target='_blank'
+              >
                 <i className='fab fa-yelp fa-2x' />
               </a>
             </Col>
