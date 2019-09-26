@@ -21,7 +21,13 @@ export default class Foot extends Component {
             </Col>
             <Col xs='12' md='4'>
               <h4>contact</h4>
-              <span>T: 213 746 4642</span>
+              <span>T: 213 746 4642</span> <br />
+              <a href='#'>
+                <i className='fab fa-facebook fa-2x' />
+              </a>
+              <a href='#'>
+                <i className='fab fa-yelp fa-2x' />
+              </a>
             </Col>
           </Row>
         </div>
