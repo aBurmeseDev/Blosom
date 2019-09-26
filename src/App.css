@@ -22,9 +22,11 @@ h5 {
 /* Navbar */
 .nav {
   margin-right: 50px;
+  cursor: pointer;
 }
 .nav:hover {
   text-decoration: underline !important;
+  animation: 2s slideInFromLeft;
 }
 #navbrand {
   font-size: 1.5rem;
@@ -143,4 +145,13 @@ h5 {
 .fab {
   color: #fff !important;
   padding: 4px 7px;
+}
+/* animation */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
