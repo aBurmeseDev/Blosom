@@ -29,7 +29,7 @@ export default class Order extends Component {
           </Row>
         </div>
         <div id='deliver-body'>
-          <h4>delivering areas</h4>
+          <h3>delivering areas</h3>
           <Row>
             <Col xs='12' md='2' />
             <Col xs='12' md='2'>

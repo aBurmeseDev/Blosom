@@ -14,15 +14,19 @@ h6 {
   /* font-weight: 700; */
   font-style: italic;
 }
-
+h3 {
+  text-decoration: underline;
+}
 h4,
 h5 {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-transform: uppercase;
 }
 /* Navbar */
 .nav {
   margin-right: 50px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .nav:hover {
   text-decoration: underline !important;
