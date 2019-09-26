@@ -139,3 +139,8 @@ h5 {
   color: #fff !important;
   background-color: #000 !important;
 }
+/* icons */
+.fab {
+  color: #fff !important;
+  padding: 4px 7px;
+}
