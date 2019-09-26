@@ -108,8 +108,8 @@ h5 {
 }
 /* Parallax scroll */
 .para {
-  background-image: url('./handroll.jpg');
-  height: 600px;
+  background-image: url('./Newer Downtown Roll_Fixed.jpg');
+  height: 700px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -124,7 +124,7 @@ h5 {
   background-size: cover;
 }
 .para3 {
-  background: url('./Vocano Roll.jpg');
+  background-image: url("./Sushi Lover's Combo.jpg");
   height: 500px;
   background-attachment: fixed;
   background-position: center;
