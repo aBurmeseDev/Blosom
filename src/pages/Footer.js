@@ -25,12 +25,14 @@ export default class Foot extends Component {
               <a
                 href='https://www.facebook.com/Blosom-Bento-194429073910986/'
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-facebook fa-2x' />
               </a>
               <a
                 href='https://www.yelp.com/biz/blosom-bento-los-angeles'
                 target='_blank'
+                rel='noopener noreferrer'
               >
                 <i className='fab fa-yelp fa-2x' />
               </a>
