@@ -18,6 +18,7 @@ import Home from './pages/Home';
 import Order from './pages/Order';
 import Menu from './pages/Menu';
 import About from './pages/About';
+import Gallery from './pages/Gallery';
 import Footer from './pages/Footer';
 
 class App extends Component {
@@ -141,6 +142,9 @@ class App extends Component {
                       <Menu />
                     </Element>
                     <div className='para3' />
+                    <Element name='gallery'>
+                      <Gallery />
+                    </Element>
                     <Element name='about'>
                       <About />
                     </Element>
