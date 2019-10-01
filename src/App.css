@@ -86,7 +86,10 @@ h5 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
+/* Gallery section */
+.gallery-img {
+  padding: 0px 0px !important;
+}
 /* Footer */
 .Footer {
   /* display: flex;

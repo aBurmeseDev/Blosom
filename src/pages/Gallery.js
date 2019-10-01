@@ -10,22 +10,16 @@ export default class Gallery extends Component {
       <div className='Gallery'>
         <div id='gallery-body'>
           <Row>
-            <Col xs='12' md='2'>
+            <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
-            <Col xs='12' md='2'>
+            <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
-            <Col xs='12' md='2'>
+            <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
-            <Col xs='12' md='2'>
-              <img src={img1} className='gallery-img' />
-            </Col>
-            <Col xs='12' md='2'>
-              <img src={img1} className='gallery-img' />
-            </Col>
-            <Col xs='12' md='2'>
+            <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
           </Row>
