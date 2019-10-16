@@ -11,17 +11,22 @@ export default class Order extends Component {
           <div style={{ height: '24px' }} />
 
           <Row>
-            <Col xs='12' md='4'>
+            <Col xs='12' md='3'>
               <Button outline color='info'>
                 DOORDASH
               </Button>
             </Col>
-            <Col xs='12' md='4'>
+            <Col xs='12' md='3'>
               <Button outline color='info'>
                 ChowNow
               </Button>
             </Col>
-            <Col xs='12' md='4'>
+            <Col xs='12' md='3'>
+              <Button outline color='info'>
+                UBEREats
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
               <Button outline color='info' href='https://www.grubhub.com/'>
                 GRUBHUB
               </Button>

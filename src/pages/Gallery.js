@@ -16,12 +16,12 @@ export default class Gallery extends Component {
             <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
-            <Col xs='12' md='3'>
+            {/* <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
             </Col>
             <Col xs='12' md='3'>
               <img src={img1} className='gallery-img' />
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </div>
