@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import { Row, Col, Button } from 'reactstrap';
+import grubhub from '../logos/grubhub.png';
+import chownow from '../logos/chownow.png';
 
 export default class Order extends Component {
   render() {
@@ -13,22 +15,30 @@ export default class Order extends Component {
           <Row>
             <Col xs='12' md='3'>
               <Button outline color='info'>
-                UBEREats
+                DOORDASH
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button outline color='light'>
+                <img
+                  src={chownow}
+                  alt='order ChowNow'
+                  style={{ width: '9rem' }}
+                />
               </Button>
             </Col>
             <Col xs='12' md='3'>
               <Button outline color='info'>
-                ChowNow
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
-              <Button outline color='info'>
                 UBEREats
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='info' href='https://www.grubhub.com/'>
-                GRUBHUB
+              <Button outline color='light' href='https://www.grubhub.com/'>
+                <img
+                  src={grubhub}
+                  alt='order GrubHub'
+                  style={{ width: '9rem' }}
+                />
               </Button>
             </Col>
             {/* <Col xs='12' md='3'>
