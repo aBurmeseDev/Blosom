@@ -67,6 +67,9 @@ h5 {
   text-decoration: underline;
   padding-top: 12px;
 }
+#deliver-body p {
+  font-size: 0.85rem;
+}
 /* Menu section */
 .Menu {
   /* background: #fab905; */
