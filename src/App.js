@@ -142,9 +142,7 @@ class App extends Component {
                       <Menu />
                     </Element>
                     <div className='para3' />
-                    <Element name='gallery'>
-                      <Gallery />
-                    </Element>
+                    <Element name='gallery'>{/* <Gallery /> */}</Element>
                     <Element name='about'>
                       <About />
                     </Element>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Row, Col } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 
 export default class Menu extends Component {
   render() {
@@ -110,6 +110,7 @@ export default class Menu extends Component {
               <span>Seafood Udon Soup</span>
             </Col>
           </Row>
+          <Button color='light'>Full Menu</Button>
         </div>
       </div>
     );
