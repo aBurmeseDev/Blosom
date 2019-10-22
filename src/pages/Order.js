@@ -38,18 +38,18 @@ export default class Order extends Component {
           <Row>
             <Col xs='12' md='2' />
             <Col xs='12' md='2'>
-              <h5>Within 0.5 mile</h5> <strong>FREE</strong>
+              <h6>Within 0.5 mile</h6> <strong>FREE</strong>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Within 1 mile</h5>
+              <h6>Within 1 mile</h6>
               <p>Free w/ MInimum Purchase over $30 or $1.50 under $30</p>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Within 3 mile</h5>
+              <h6>Within 3 mile</h6>
               <p>$3 w/ MInimum Purchase over $35</p>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Over 3 mile</h5>
+              <h6>Over 3 mile</h6>
               <p>Please call us and inquire within.</p>
             </Col>
             <Col xs='12' md='2' />
