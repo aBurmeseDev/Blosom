@@ -83,6 +83,10 @@ h5 {
 #menu-body {
   padding: 24px 0;
 }
+#menu-body h5 {
+  padding: 21px 0;
+}
+
 /* About section */
 .About {
   /* margin-top: 30px; */

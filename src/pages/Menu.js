@@ -11,105 +11,105 @@ export default class Menu extends Component {
           <div style={{ height: '24px' }} />
           <Row>
             <Col xs='12' md='3'>
-              <h4>noodle</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>noodle</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>sushi & sashimi</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>sushi & sashimi</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>bento lunch</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>bento lunch</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>specialty roll</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>specialty roll</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
           </Row>
-          <div style={{ height: '90px' }} />
+          {/* <div style={{ height: '90px' }} />
           <Row>
             <Col xs='12' md='3'>
-              <h4>salad</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>salad</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>side</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>side</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>drink</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>drink</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
             <Col xs='12' md='3'>
-              <h4>dessert</h4>
-              <span>Zaru Soba</span> <br />
-              <span>Udon Soup</span> <br />
-              <span>Miso Ramen</span>
-              <br />
-              <span>Chashu Ramen</span>
-              <br />
-              <span>Shrimp Miso Soup</span>
-              <br />
-              <span>Seafood Udon Soup</span>
+              <h5>dessert</h5>
+              <p>Zaru Soba</p>
+              <p>Udon Soup</p>
+              <p>Miso Ramen</p>
+
+              <p>Chashu Ramen</p>
+
+              <p>Shrimp Miso Soup</p>
+
+              <p>Seafood Udon Soup</p>
             </Col>
-          </Row>
+          </Row> */}
           <Button color='light'>Full Menu</Button>
         </div>
       </div>
