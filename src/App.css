@@ -12,7 +12,7 @@ h5,
 h6 {
   font-family: serif;
   /* font-weight: 700; */
-  font-style: italic;
+  /* font-style: italic; */
 }
 h3 {
   text-decoration: underline;
@@ -61,7 +61,14 @@ h5 {
 }
 
 #deliver-body {
-  padding: 24px 0;
+  padding: 0 24px;
+}
+#deliver-body h6 {
+  text-decoration: underline;
+  padding-top: 12px;
+}
+#deliver-body p {
+  font-size: 0.85rem;
 }
 /* Menu section */
 .Menu {
@@ -76,6 +83,10 @@ h5 {
 #menu-body {
   padding: 24px 0;
 }
+#menu-body h5 {
+  padding: 21px 0;
+}
+
 /* About section */
 .About {
   /* margin-top: 30px; */
@@ -147,6 +158,7 @@ h5 {
   background-color: #000 !important;
   border-color: #000 !important;
   transition: all 0.7s ease-in-out;
+  margin-top: 7px !important;
 }
 .btn-outline-info:hover {
   /* color: #fff !important;

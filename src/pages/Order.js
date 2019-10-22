@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import { Row, Col, Button } from 'reactstrap';
+import grubhub from '../logos/grubhub.png';
+import chownow from '../logos/chownow.png';
 
 export default class Order extends Component {
   render() {
@@ -17,8 +19,12 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='info'>
-                ChowNow
+              <Button outline color='light'>
+                <img
+                  src={chownow}
+                  alt='order ChowNow'
+                  style={{ width: '9rem' }}
+                />
               </Button>
             </Col>
             <Col xs='12' md='3'>
@@ -27,10 +33,19 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='info' href='https://www.grubhub.com/'>
-                GRUBHUB
+              <Button outline color='light' href='https://www.grubhub.com/'>
+                <img
+                  src={grubhub}
+                  alt='order GrubHub'
+                  style={{ width: '9rem' }}
+                />
               </Button>
             </Col>
+            {/* <Col xs='12' md='3'>
+              <Button outline color='info'>
+                DOORDASH
+              </Button>
+            </Col> */}
           </Row>
         </div>
         <div id='deliver-body'>
@@ -38,18 +53,18 @@ export default class Order extends Component {
           <Row>
             <Col xs='12' md='2' />
             <Col xs='12' md='2'>
-              <h5>Within 0.5 mile</h5> <strong>FREE</strong>
+              <h6>Within 0.5 mile</h6> <strong>FREE</strong>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Within 1 mile</h5>
+              <h6>Within 1 mile</h6>
               <p>Free w/ MInimum Purchase over $30 or $1.50 under $30</p>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Within 3 mile</h5>
+              <h6>Within 3 mile</h6>
               <p>$3 w/ MInimum Purchase over $35</p>
             </Col>
             <Col xs='12' md='2'>
-              <h5>Over 3 mile</h5>
+              <h6>Over 3 mile</h6>
               <p>Please call us and inquire within.</p>
             </Col>
             <Col xs='12' md='2' />

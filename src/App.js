@@ -60,7 +60,7 @@ class App extends Component {
                 return (
                   <div>
                     <div className='Navbar'>
-                      <Navbar expand='md'>
+                      <Navbar color='faded' light expand='md'>
                         <NavbarBrand id='navbrand' href='/'>
                           Blosom
                         </NavbarBrand>
@@ -142,9 +142,7 @@ class App extends Component {
                       <Menu />
                     </Element>
                     <div className='para3' />
-                    <Element name='gallery'>
-                      <Gallery />
-                    </Element>
+                    <Element name='gallery'>{/* <Gallery /> */}</Element>
                     <Element name='about'>
                       <About />
                     </Element>
