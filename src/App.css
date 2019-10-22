@@ -61,7 +61,11 @@ h5 {
 }
 
 #deliver-body {
-  padding: 24px 0;
+  padding: 0 24px;
+}
+#deliver-body h6 {
+  text-decoration: underline;
+  padding-top: 12px;
 }
 /* Menu section */
 .Menu {
