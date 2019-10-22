@@ -22,23 +22,20 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-<<<<<<< HEAD
-=======
               <Button outline color='info'>
                 UBEREats
               </Button>
             </Col>
             <Col xs='12' md='3'>
->>>>>>> e4e8007883a98905146326f52935ddd39f966df6
               <Button outline color='info' href='https://www.grubhub.com/'>
                 GRUBHUB
               </Button>
             </Col>
-            <Col xs='12' md='3'>
+            {/* <Col xs='12' md='3'>
               <Button outline color='info'>
                 DOORDASH
               </Button>
-            </Col>
+            </Col> */}
           </Row>
         </div>
         <div id='deliver-body'>
