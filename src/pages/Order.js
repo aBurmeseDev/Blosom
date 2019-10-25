@@ -15,19 +15,23 @@ export default class Order extends Component {
 
           <Row>
             <Col xs='12' md='3'>
-              <Button outline color='light' href='https://get.chownow.com/'>
+              <Button
+                outline
+                color='light'
+                href='https://www.ubereats.com/en-US/'
+              >
                 <img
-                  src={chownow}
-                  alt='order ChowNow'
-                  style={{ width: '9rem' }}
+                  src={ubereats}
+                  alt='order UberEats'
+                  style={{ width: '7rem' }}
                 />
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='light' href='https://www.grubhub.com/'>
+              <Button outline color='light' href='https://get.chownow.com/'>
                 <img
-                  src={grubhub}
-                  alt='order GrubHub'
+                  src={chownow}
+                  alt='order ChowNow'
                   style={{ width: '9rem' }}
                 />
               </Button>
@@ -42,15 +46,11 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button
-                outline
-                color='light'
-                href='https://www.ubereats.com/en-US/'
-              >
+              <Button outline color='light' href='https://www.grubhub.com/'>
                 <img
-                  src={ubereats}
-                  alt='order UberEats'
-                  style={{ width: '7rem' }}
+                  src={grubhub}
+                  alt='order GrubHub'
+                  style={{ width: '9rem' }}
                 />
               </Button>
             </Col>
