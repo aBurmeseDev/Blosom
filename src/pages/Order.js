@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import { Row, Col, Button } from 'reactstrap';
 import grubhub from '../logos/grubhub.png';
 import chownow from '../logos/chownow.png';
-
+import ubereats from '../logos/ubereats.png';
+import doordash from '../logos/doordash.png';
 export default class Order extends Component {
   render() {
     return (
@@ -14,12 +15,7 @@ export default class Order extends Component {
 
           <Row>
             <Col xs='12' md='3'>
-              <Button outline color='info'>
-                DOORDASH
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
-              <Button outline color='light'>
+              <Button outline color='light' href='https://get.chownow.com/'>
                 <img
                   src={chownow}
                   alt='order ChowNow'
@@ -28,16 +24,33 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='info'>
-                UBEREats
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
               <Button outline color='light' href='https://www.grubhub.com/'>
                 <img
                   src={grubhub}
                   alt='order GrubHub'
                   style={{ width: '9rem' }}
+                />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button outline color='light' href='https://www.doordash.com/'>
+                <img
+                  src={doordash}
+                  alt='order DoorDash'
+                  style={{ width: '9rem' }}
+                />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button
+                outline
+                color='light'
+                href='https://www.ubereats.com/en-US/'
+              >
+                <img
+                  src={ubereats}
+                  alt='order UberEats'
+                  style={{ width: '7rem' }}
                 />
               </Button>
             </Col>

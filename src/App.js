@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import { Link as Linking } from 'react-router-dom';
 import { Link, Element, Events } from 'react-scroll';
 import {
   Collapse,
@@ -13,12 +12,11 @@ import {
   NavItem
 } from 'reactstrap';
 // Pages
-import NavBar from './pages/Navbar';
 import Home from './pages/Home';
 import Order from './pages/Order';
 import Menu from './pages/Menu';
 import About from './pages/About';
-import Gallery from './pages/Gallery';
+//import Gallery from './pages/Gallery';
 import Footer from './pages/Footer';
 
 class App extends Component {
@@ -75,6 +73,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Home
                               </Link>
@@ -87,6 +86,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Order
                               </Link>
@@ -99,6 +99,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Menu
                               </Link>
@@ -111,6 +112,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 About
                               </Link>
