@@ -95,7 +95,7 @@ class App extends Component {
                               <Link
                                 activeClass='active'
                                 className='nav'
-                                to='gallery'
+                                to='menu'
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
