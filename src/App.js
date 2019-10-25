@@ -140,11 +140,11 @@ class App extends Component {
                       <Order />
                     </Element>
                     {/* <div className='para2' /> */}
-                    <Element name='gallery'>
+                    <Element name='menu'>
                       <Menu />
                     </Element>
                     <div className='para3' />
-                    <Element name='gallery'>{/* <Gallery /> */}</Element>
+                    {/* <Element name='gallery'><Gallery /></Element> */}
                     <Element name='about'>
                       <About />
                     </Element>

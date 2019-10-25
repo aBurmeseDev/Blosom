@@ -6,7 +6,7 @@ export default class Foot extends Component {
   render() {
     return (
       <div className='Footer'>
-        <div id='about-body'>
+        {/* <div id='about-body'>
           <Row>
             <Col xs='12' md='4'>
               <h4>location</h4>
@@ -41,7 +41,7 @@ export default class Foot extends Component {
               </a>
             </Col>
           </Row>
-        </div>
+        </div> */}
         &copy; 2019 Blosom
       </div>
     );
