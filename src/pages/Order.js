@@ -46,7 +46,7 @@ export default class Order extends Component {
                 <img
                   src={ubereats}
                   alt='order UberEats'
-                  style={{ width: '9rem' }}
+                  style={{ width: '7rem' }}
                 />
               </Button>
             </Col>
