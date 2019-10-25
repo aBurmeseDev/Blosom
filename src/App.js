@@ -73,6 +73,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Home
                               </Link>
@@ -85,6 +86,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Order
                               </Link>
@@ -97,6 +99,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 Menu
                               </Link>
@@ -109,6 +112,7 @@ class App extends Component {
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
+                                onClick={this.toggle.bind(this)}
                               >
                                 About
                               </Link>
