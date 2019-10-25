@@ -14,11 +14,6 @@ export default class Order extends Component {
 
           <Row>
             <Col xs='12' md='3'>
-              <Button outline color='info'>
-                DOORDASH
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
               <Button outline color='light'>
                 <img
                   src={chownow}
@@ -28,17 +23,22 @@ export default class Order extends Component {
               </Button>
             </Col>
             <Col xs='12' md='3'>
-              <Button outline color='info'>
-                UBEREats
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
               <Button outline color='light' href='https://www.grubhub.com/'>
                 <img
                   src={grubhub}
                   alt='order GrubHub'
                   style={{ width: '9rem' }}
                 />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button outline color='info'>
+                DOORDASH
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button outline color='info'>
+                UBEREats
               </Button>
             </Col>
             {/* <Col xs='12' md='3'>

@@ -24,7 +24,7 @@ h5 {
 }
 /* Navbar */
 .nav {
-  margin-right: 50px;
+  /* margin-right: 50px; */
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -42,6 +42,17 @@ h5 {
   position: fixed;
   width: 100%;
   z-index: 5;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .ml-auto {
+    background: rgba(0, 0, 0, 0.6) !important;
+  }
+  .nav-item {
+    margin: 0 auto !important;
+    padding: 20px 0;
+    color: #fff;
+  }
 }
 /* Home section */
 #opener {
@@ -70,6 +81,7 @@ h5 {
 #deliver-body p {
   font-size: 0.85rem;
 }
+
 /* Menu section */
 .Menu {
   /* background: #fab905; */
