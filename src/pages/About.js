@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 export default class About extends Component {
   render() {
