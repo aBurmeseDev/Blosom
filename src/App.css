@@ -75,7 +75,9 @@ h5 {
 #order-body {
   padding: 24px 0;
 }
-
+.orderBtn {
+  padding: 10px 0 !important;
+}
 #deliver-body {
   padding: 0 24px;
 }
