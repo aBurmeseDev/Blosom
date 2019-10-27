@@ -24,7 +24,7 @@ export default class Order extends Component {
                 <img
                   src={ubereats}
                   alt='order UberEats'
-                  style={{ height: '2.95rem' }}
+                  style={{ height: '1rem' }}
                 />
               </Button>
             </Col>
@@ -66,7 +66,7 @@ export default class Order extends Component {
                 <img
                   src={doordash}
                   alt='order DoorDash'
-                  style={{ height: '2.5rem' }}
+                  style={{ height: '2rem' }}
                 />
               </Button>
             </Col>
