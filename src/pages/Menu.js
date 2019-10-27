@@ -7,7 +7,7 @@ export default class Menu extends Component {
     return (
       <div className='Menu'>
         <div id='menu-body'>
-          <h3>menu</h3>
+          <h3>popular dishes</h3>
           <div style={{ height: '24px' }} />
           <Row>
             <Col xs='12' md='3'>

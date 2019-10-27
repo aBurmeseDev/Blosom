@@ -15,34 +15,8 @@ export default class Order extends Component {
 
           <Row>
             <Col xs='12' md='3'>
-              <Button outline color='light' href='https://get.chownow.com/'>
-                <img
-                  src={chownow}
-                  alt='order ChowNow'
-                  style={{ width: '9rem' }}
-                />
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
-              <Button outline color='light' href='https://www.grubhub.com/'>
-                <img
-                  src={grubhub}
-                  alt='order GrubHub'
-                  style={{ width: '9rem' }}
-                />
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
-              <Button outline color='light' href='https://www.doordash.com/'>
-                <img
-                  src={doordash}
-                  alt='order DoorDash'
-                  style={{ width: '9rem' }}
-                />
-              </Button>
-            </Col>
-            <Col xs='12' md='3'>
               <Button
+                className='orderBtn'
                 outline
                 color='light'
                 href='https://www.ubereats.com/en-US/'
@@ -50,7 +24,49 @@ export default class Order extends Component {
                 <img
                   src={ubereats}
                   alt='order UberEats'
-                  style={{ width: '7rem' }}
+                  style={{ height: '1rem' }}
+                />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button
+                className='orderBtn'
+                outline
+                color='light'
+                href='https://get.chownow.com/'
+              >
+                <img
+                  src={chownow}
+                  alt='order ChowNow'
+                  style={{ height: '2.95rem' }}
+                />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button
+                className='orderBtn'
+                outline
+                color='light'
+                href='https://www.grubhub.com/'
+              >
+                <img
+                  src={grubhub}
+                  alt='order GrubHub'
+                  style={{ height: '2.95rem' }}
+                />
+              </Button>
+            </Col>
+            <Col xs='12' md='3'>
+              <Button
+                className='orderBtn'
+                outline
+                color='light'
+                href='https://www.doordash.com/'
+              >
+                <img
+                  src={doordash}
+                  alt='order DoorDash'
+                  style={{ height: '2rem' }}
                 />
               </Button>
             </Col>

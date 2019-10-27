@@ -58,7 +58,7 @@ class App extends Component {
                 return (
                   <div>
                     <div className='Navbar'>
-                      <Navbar color='faded' light expand='md'>
+                      <Navbar color='light' light expand='md'>
                         <NavbarBrand id='navbrand' href='/'>
                           Blosom
                         </NavbarBrand>
@@ -95,7 +95,7 @@ class App extends Component {
                               <Link
                                 activeClass='active'
                                 className='nav'
-                                to='gallery'
+                                to='menu'
                                 spy={true}
                                 smooth={true}
                                 duration={1000}
@@ -140,11 +140,11 @@ class App extends Component {
                       <Order />
                     </Element>
                     {/* <div className='para2' /> */}
-                    <Element name='gallery'>
+                    <Element name='menu'>
                       <Menu />
                     </Element>
                     <div className='para3' />
-                    <Element name='gallery'>{/* <Gallery /> */}</Element>
+                    {/* <Element name='gallery'><Gallery /></Element> */}
                     <Element name='about'>
                       <About />
                     </Element>
