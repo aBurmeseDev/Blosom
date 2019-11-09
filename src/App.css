@@ -30,12 +30,17 @@ h5 {
 .nav {
   cursor: pointer !important;
 }
-.nav:hover {
+/* .nav:hover {
   text-decoration: underline !important;
   animation: 1s fadeInOut;
+} */
+.navbar {
+  border-bottom: 0.5px solid #000 !important
 }
-#navbrand {
-  font-size: 1.5rem;
+#navbrand img {
+  /* font-size: 1.5rem; */
+  width: auto !important;
+  height: 4rem !important;
   cursor: pointer !important;
 }
 .Navbar {
@@ -45,18 +50,40 @@ h5 {
   width: 100%;
   z-index: 5;
 }
-@media only screen and (max-width: 768px) {
+.nav-item {
+  color: rgba(255, 255, 255, 0.893);
+}
+@media only screen and (max-width: 767px) {
   /* For mobile phones: */
-  .ml-auto {
+
+  /* .ml-auto {
     background: rgba(0, 0, 0, 0.6) !important;
-  }
+  } */
   .nav-item {
     margin: 0 auto !important;
     padding: 20px 0;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.893);
   }
   .nav {
     margin-right: 0 !important;
+  }
+  .orderD {
+    position: absolute !important;
+    top: 62% !important;
+    right: 33% !important;
+    transition: none !important;
+  }
+  .para {
+    width: auto !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  .para3 {
+    width: auto !important;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
   }
 }
 /* Home section */
@@ -77,6 +104,7 @@ h5 {
 }
 .orderBtn {
   padding: 10px 0 !important;
+  border-color: #fff !important;
 }
 #deliver-body {
   padding: 0 24px;
@@ -88,7 +116,9 @@ h5 {
 #deliver-body p {
   font-size: 0.85rem;
 }
-
+/* .orderD {
+  display: none !important;
+} */
 /* Menu section */
 .Menu {
   /* background: #fab905; */
@@ -110,7 +140,9 @@ h5 {
 .About {
   /* margin-top: 30px; */
   padding: 12px 0;
-  background: rgba(255, 10, 10, 0.308);
+  background: #000;
+  color: #fff;
+  /* background: rgba(255, 10, 10, 0.308); */
   /* width: 600px; */
 }
 #about-body {
@@ -128,8 +160,8 @@ h5 {
   align-items: center;
   flex-wrap: wrap; */
   height: auto;
-  background-color: black;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   /* opacity: 0.6; */
   /* position: fixed; */
   /* bottom: 0;
@@ -149,14 +181,15 @@ h5 {
 .para {
   background-image: url('./Vegas Roll.jpg');
   height: 700px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
   animation: 5s fadeInOut;
 }
 
+ 
 .para2 {
-  background-image: url('./Masago Sushi.jpg');
+  /* background-image: url('./Masago Sushi.jpg'); */
   height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -165,7 +198,7 @@ h5 {
 .para3 {
   background-image: url("./Sushi Lover's Combo.jpg");
   height: 500px;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
 }
@@ -187,7 +220,7 @@ h5 {
 }
 /* icons */
 .fab {
-  color: #000 !important;
+  color: #fff !important;
   padding: 16px 7px 0 7px;
 }
 /* animation */
