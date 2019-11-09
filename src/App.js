@@ -9,7 +9,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem
+  NavItem,
+  Button
 } from 'reactstrap';
 // Pages
 import Home from './pages/Home';
@@ -18,6 +19,7 @@ import Menu from './pages/Menu';
 import About from './pages/About';
 //import Gallery from './pages/Gallery';
 import Footer from './pages/Footer';
+import navLogo from './logos/navLogo.png';
 
 class App extends Component {
   constructor(props) {
@@ -28,11 +30,11 @@ class App extends Component {
   }
 
   componentDidMount() {
-    Events.scrollEvent.register('begin', function() {
+    Events.scrollEvent.register('begin', function () {
       console.log('begin', arguments);
     });
 
-    Events.scrollEvent.register('end', function() {
+    Events.scrollEvent.register('end', function () {
       console.log('end', arguments);
     });
   }
@@ -58,11 +60,19 @@ class App extends Component {
                 return (
                   <div>
                     <div className='Navbar'>
-                      <Navbar color='light' light expand='md'>
+                      <Navbar
+                        color='fade'
+                        light
+                        expand='md'
+                        style={{ borderBottom: '0.5px solid #000', backgroundColor: "rgba(0,0,0,0.8)" }}
+                      >
                         <NavbarBrand id='navbrand' href='/'>
-                          Blosom
+                          <img src={navLogo} alt="Blosom" />
                         </NavbarBrand>
-                        <NavbarToggler onClick={this.toggle.bind(this)} />
+                        <NavbarToggler
+                          style={{ borderColor: 'rgba(255, 255, 255, 0.893)' }}
+                          onClick={this.toggle.bind(this)}
+                        />
                         <Collapse isOpen={this.state.isOpen} navbar>
                           <Nav className='ml-auto' navbar>
                             <NavItem>
@@ -133,6 +143,11 @@ class App extends Component {
                         </Collapse>
                       </Navbar>
                     </div>
+                    <Link to='order' spy={true} smooth={true} duration={1000}>
+                      <Button color='light' className='orderD'>
+                        Order Delivery
+                      </Button>
+                    </Link>
                     <Element name='home'>
                       <Home />
                     </Element>
