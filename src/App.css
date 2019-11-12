@@ -53,6 +53,11 @@ h5 {
 .nav-item {
   color: rgba(255, 255, 255, 0.893);
 }
+@media only screen and (min-width: 768px) {
+.orderD {
+  display: none !important;
+}
+}
 @media only screen and (max-width: 767px) {
   /* For mobile phones: */
 
@@ -69,7 +74,7 @@ h5 {
   }
   .orderD {
     position: absolute !important;
-    top: 62% !important;
+    top: 64% !important;
     right: 33% !important;
     transition: none !important;
   }
@@ -116,9 +121,7 @@ h5 {
 #deliver-body p {
   font-size: 0.85rem;
 }
-/* .orderD {
-  display: none !important;
-} */
+
 /* Menu section */
 .Menu {
   /* background: #fab905; */
