@@ -143,7 +143,8 @@ class App extends Component {
                         </Collapse>
                       </Navbar>
                     </div>
-                    <Link to='order' spy={true} smooth={true} duration={1000}>
+                    <Link to='order' spy={true} smooth={true} duration={1000} style={{ display: "block", width: "200px" }}>
+
                       <Button color='light' className='orderD'>
                         Order Delivery
                       </Button>
@@ -154,12 +155,10 @@ class App extends Component {
                     <Element name='order'>
                       <Order />
                     </Element>
-                    {/* <div className='para2' /> */}
                     <Element name='menu'>
                       <Menu />
                     </Element>
                     <div className='para3' />
-                    {/* <Element name='gallery'><Gallery /></Element> */}
                     <Element name='about'>
                       <About />
                     </Element>
