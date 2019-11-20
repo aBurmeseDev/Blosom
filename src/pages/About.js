@@ -22,10 +22,10 @@ export default class About extends Component {
               <h5>contact</h5>
               <span>T: 213 746 4642</span> <br />
               <a href='https://www.facebook.com/pages/category/Fast-Food-Restaurant/Blosom-Bento-194429073910986/'>
-                <i className='fab fa-facebook fa-2x' />
+                <i className='fab fa-facebook fa-lg' />
               </a>
               <a href='https://www.yelp.com/biz/blosom-bento-los-angeles'>
-                <i className='fab fa-yelp fa-2x' />
+                <i className='fab fa-yelp fa-lg' />
               </a>
             </Col>
           </Row>
