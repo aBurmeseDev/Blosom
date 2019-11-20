@@ -1,5 +1,5 @@
 body {
-  font-family: 'Chivo', sans-serif;
+  font-family: 'Kurale', serif;
   font-weight: 300;
   height: 100vh;
 }
@@ -10,16 +10,16 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
-  /* font-weight: 700; */
-  /* font-style: italic; */
+  font-family: 'Kurale', serif;
 }
 h3 {
-  text-decoration: underline;
+
+  font-family: 'Kurale', serif;
 }
-h4,
+
 h5 {
-  /* text-decoration: underline; */
+
+  font-family: 'Kurale', serif;
   text-transform: uppercase;
 }
 /* Navbar */
@@ -44,7 +44,7 @@ h5 {
   cursor: pointer !important;
 }
 .Navbar {
-  /* font-family: 'Chivo', sans-serif; */
+  font-family: 'Kurale', serif;
   font-weight: 500;
   position: fixed;
   width: 100%;
@@ -55,6 +55,9 @@ h5 {
 }
 @media only screen and (min-width: 768px) {
 .orderD {
+  display: none !important;
+}
+.welcome {
   display: none !important;
 }
 }
@@ -72,11 +75,23 @@ h5 {
   .nav {
     margin-right: 0 !important;
   }
+  .welcome {
+    position: absolute !important;
+    top: 46% !important;
+    right: 30% !important;
+    color: #fff !important;
+    font-size: 7rem !important;
+    padding: 0 12px !important;
+    animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1s both;
+  }
   .orderD {
     position: absolute !important;
+    background-color: #000 !important;
+    color: #fff !important;
     top: 64% !important;
     right: 33% !important;
-    transition: none !important;
+    animation: scale-in-ver-center 0.75s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.9s both;
+    
   }
   .para {
     width: auto !important;
@@ -97,7 +112,9 @@ h5 {
   max-height: 40rem;
   object-fit: cover;
 }
-
+.welcome {
+  font-family: 'Herr Von Muellerhoff', cursive;
+}
 /* Order section */
 .OrderInfo {
   height: auto;
@@ -106,6 +123,7 @@ h5 {
 }
 #order-body {
   padding: 24px 0;
+  
 }
 .orderBtn {
   padding: 10px 0 !important;
@@ -119,9 +137,12 @@ h5 {
   padding-top: 12px;
 }
 #deliver-body p {
-  font-size: 0.85rem;
+  font-family: sans-serif;  
+  font-size: 0.95rem;
 }
-
+/* .orderD {
+  display: none !important;
+} */
 /* Menu section */
 .Menu {
   /* background: #fab905; */
@@ -183,11 +204,11 @@ h5 {
 /* Parallax scroll */
 .para {
   background-image: url('./Vegas Roll.jpg');
-  height: 700px;
+  height: 800px;
   /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
-  animation: 5s fadeInOut;
+  
 }
 
  
@@ -199,7 +220,7 @@ h5 {
   background-size: cover;
 }
 .para3 {
-  background-image: url("./Sushi Lover's Combo.jpg");
+  background-image: url("./Fresh Salmon Salad.jpg");
   height: 500px;
   /* background-attachment: fixed; */
   background-position: center;
@@ -230,6 +251,30 @@ h5 {
 @keyframes fadeInOut {
   0% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes scale-in-ver-center {
+  0% {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
   }
   100% {
     opacity: 1;
